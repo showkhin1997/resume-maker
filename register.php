@@ -21,7 +21,7 @@ if(isset($_POST['submit'])) {
 		echo "<a href='register.php'> <br/> <br/> <br/><h1>Go back</h1><br/> <br/> <br/></a>";
 	} else {
 		mysqli_query($mysqli, "INSERT INTO user(name, email, username, password) VALUES('$name', '$email', '$user', md5('$pass'))")
-			or die("Could not execute the insert query.");
+			or die("<br><h2>Could not use the same username !.</h2><br>");
 			
 		echo "<br/> <br/> <br/> <h1>Registration successfully</h1> <br/> <br/> <br/>";
 		echo "<br/> <br/> <br/>";
