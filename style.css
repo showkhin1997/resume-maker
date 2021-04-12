@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(211, 211, 211);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+    display: flex;
+    background-color: white;
+}
+
+#left{
+    width: 60%;
+    padding: 0 30px 0 30px;
+}
+
+#right{
+    width: 40%;
+}
+
+/* left side */
+
+/* address section */
+#address{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+    font-size: 1.5rem;
+    padding: 0 20px 0 0;
+}
+
+#tel img, #tel p, #em img, #em p, #hm img, #hm p{
+    display: inline-block;
+}
+
+#tel img, #em img, #hm img{
+    width: 15px;
+    margin: 0 10px 0 0;
+}
+
+#tel{
+    margin: 0 0 10px 0;
+}
+
+#hm{
+    margin: 10px 0 0 0;
+}
+
+/* name section */
+#name{
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-height: 9rem;
+    margin: 60px 0 0 0;
+    font-weight: 700;
+    padding: 0 0 0 0;
+}
+
+#first_name{
+    color: gray;
+}
+
+/* #last_name{
+
+} */
+
+#proffesion{
+    font-weight: 100;
+    font-size: 4rem;
+    margin: -15px 0 0 0;
+}
+
+/* Experience Section */
+#experience{
+    margin: 50px 0 0 0;
+}
+
+h2{
+    font-size: 4rem;
+    margin: 0 0 20px 0;
+}
+
+h3{
+    font-size: 2.1rem;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 2rem;
+    margin: 0 0 8px 0;
+    font-weight: 300;
+}
+
+#experience p{
+    font-size: 2rem;
+    color: gray;
+    width: 90%;
+    margin: 0 0 50px 0;
+    font-weight: 300;
+}
+
+/* Pro Skills Section */
+.d_inline_block{
+    display: inline-block;
+}
+
+.bar{
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    border: 1px solid black;
+    /* margin: 0 0 20px 0; */
+}
+
+.bar::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 9px;
+    background-color: black;
+}
+
+#pro_skills p{
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+#pro_skills div{
+    margin: 0 0 10px 0;
+}
+
+#photoshop .bar{
+    margin: 10px 0 0 35px;
+    position: relative;
+}
+
+#photoshop .bar::after{
+    left: 80%;
+}
+
+#illustrator .bar{
+    margin: 10px 0 0 46px;
+    position: relative;
+}
+
+#illustrator .bar::after{
+    left: 70%;
+}
+
+#indesign .bar{
+    margin: 10px 0 0 54px;
+    position: relative;
+}
+
+#indesign .bar::after{
+    left: 80%;
+}
+
+#after_effect .bar{
+    margin: 10px 0 0 32px;
+    position: relative;
+}
+
+#after_effect .bar::after{
+    left: 80%;
+}
+
+#sketch .bar{
+    margin: 10px 0 0 67px;
+    position: relative;
+}
+
+#sketch .bar::after{
+    left: 65%;
+}
+
+/* right side */
+#right p{
+    font-size: 2rem;
+    color: gray;
+    width: 90%;
+    font-weight: 300;
+}
+
+.box{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(37, 37, 37);
+    position: relative;
+}
+
+#profile_pic{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+}
+
+#profile{
+    margin: 313px 0 0 0;
+}
+
+#profile p{
+    margin: 0 0 87px 0;
+}
+
+#education p{
+    margin: 0 0 65px 0;
+}
+
+#reference h4{
+    font-weight: 500;
+}
+
+
+

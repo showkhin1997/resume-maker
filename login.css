@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin-left: 100px;
+    padding: 150px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+a{
+    color: rgb(52, 163, 0);
+    padding: 20px 30px;
+    border: 2px solid yellow;
+    padding: 5px;
+    font-size: 200%;
+    border-radius:10px; 
+    
+}
+
+form{
+    /* margin: 50px; */
+    margin-left: 50px;
+    padding: 20px;
+}
+
+input[type="text"]{
+    
+    padding: 10px 40px ;
+    margin: 20px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+
+input[type="password"]{
+    padding: 10px 70px ;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+
+input[type="submit"]{
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 192, 10);
+    font-size: larger;
+    border:2px solid rgb(189, 0, 0) ;
+    
+}
+
+

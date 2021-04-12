@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin-left: 100px;
+    padding: 150px;
+    background-color: rgb(190, 190, 190);
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+
+    
+}
+
+tr{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-size: larger;
+   
+}
+
+td{
+    color: black;
+    padding: 10px;
+}
+
+a{
+    color: rgb(251, 255, 0);
+    padding: 10px 30px;
+    border: none;
+    padding: 5px;
+    font-size: 100%;
+    border-radius:5px;
+    background-color: rgb(107, 107, 107);
+    
+}
