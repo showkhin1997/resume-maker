@@ -22,7 +22,7 @@ CREATE TABLE `personal_information` (
   `email` varchar(50) NOT NULL, 
   `home` varchar(100) NOT NULL,
   `profile` varchar(200) NOT NULL,  
-  `image` varchar(255) NOT NULL,  
+  `image` longtext NOT NULL,  
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB;
 
